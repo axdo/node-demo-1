@@ -35,7 +35,7 @@ var server = http.createServer(function(request, response){
     <link rel="stylesheet" href="/x">
     </head>
     <body>
-    <h1>WEX是我的♥</h1>
+    <h1>要开学啦啦啦啦</h1>
     </body>
     `)
     response.end()
@@ -47,7 +47,7 @@ var server = http.createServer(function(request, response){
   } else {
     response.statusCode = 404
     response.setHeader('Content-Type', 'text/html;charset=utf-8')
-    response.write(`你输入的路径不存在对应的内容`)
+    response.write(`你访问的页面不存在`)
     response.end()
   }
 
