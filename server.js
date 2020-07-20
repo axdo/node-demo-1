@@ -35,7 +35,7 @@ var server = http.createServer(function(request, response){
     <link rel="stylesheet" href="/x">
     </head>
     <body>
-    <h1>要开学啦啦啦啦</h1>
+    <h1>要开学啦啦啦啦!!!</h1>
     </body>
     `)
     response.end()
